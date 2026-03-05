@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +34,18 @@ function App() {
 }
 
 export default App
+=======
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import AuthLayout from "./components/AuthLayout";
+import ContactSupport from "./pages/ContactSupport";
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<AuthLayout />} />
+      <Route path="/contact-support" element={<ContactSupport />} />
+    </Routes>
+  );
+}
+>>>>>>> origin/auth-module
