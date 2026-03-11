@@ -8,7 +8,7 @@ import {
     Database,
     GitBranch
 } from 'lucide-react';
-import { useDashboard } from '../context/DashboardContext.jsx';
+import { useDashboard } from '../../context/DashboardContext';
 import { toast } from 'sonner';
 
 

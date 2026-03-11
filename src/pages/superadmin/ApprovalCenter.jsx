@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 import { toast } from 'sonner';
 import { CheckCircle, XCircle, AlertCircle, Clock, Filter, Search, FileText, Eye } from 'lucide-react';
 

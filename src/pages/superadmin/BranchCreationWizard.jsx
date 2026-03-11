@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 import { toast } from 'sonner';
 import { X, Check, ChevronRight, ChevronLeft, MapPin, Building2, Settings as SettingsIcon, Tag, FileCheck, Search, Map as MapIcon, Maximize2, Minimize2 } from 'lucide-react';
 import MapPicker from './MapPicker';

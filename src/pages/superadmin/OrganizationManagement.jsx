@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 import { toast } from 'sonner';
 import { Building2, Plus, Search, Eye, Edit, Settings, MapPin, Calendar, IndianRupee, Trash2, Download, GitBranch } from 'lucide-react';
 
