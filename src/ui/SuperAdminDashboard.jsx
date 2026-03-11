@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { DashboardProvider } from '../context/DashboardContext';
-import InteractiveDashboardHome from '../superadmin/InteractiveDashboardHome';
-import OrganizationManagement from '../superadmin/OrganizationManagement';
-import BranchManagement from '../superadmin/BranchManagement';
-import UserManagement from '../superadmin/UserManagement';
-import ApprovalCenter from '../superadmin/ApprovalCenter';
-import SystemConfiguration from '../superadmin/SystemConfiguration';
-import AuditLogs from '../superadmin/AuditLogs';
+import InteractiveDashboardHome from '../pages/superadmin/InteractiveDashboardHome';
+import OrganizationManagement from '../pages/superadmin/OrganizationManagement';
+import BranchManagement from '../pages/superadmin/BranchManagement';
+import UserManagement from '../pages/superadmin/UserManagement';
+import ApprovalCenter from '../pages/superadmin/ApprovalCenter';
+import SystemConfiguration from '../pages/superadmin/SystemConfiguration';
+import AuditLogs from '../pages/superadmin/AuditLogs';
 import { Toaster } from 'sonner';
 import {
   LayoutDashboard,

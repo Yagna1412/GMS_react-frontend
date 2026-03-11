@@ -18,7 +18,7 @@ import {
     FileText,
     GitBranch
 } from 'lucide-react';
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../context/DashboardContext';
 
 export default function BranchDetails({ branch, onBack, onEdit }) {
     const { organizations } = useDashboard();
