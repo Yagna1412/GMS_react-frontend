@@ -22,22 +22,30 @@ import { Routes, Route } from "react-router-dom";
 import AuthLayout from "./components/AuthLayout";
 import ContactSupport from "./pages/ContactSupport";
 import SuperAdminDashboard from "./ui/SuperAdminDashboard";
+import AdminDashboard from "./ui/AdminDashboard";
 import { DashboardProvider } from "./context/DashboardContext";
+import { NotificationsProvider } from "./context/NotificationsContext";
 
 export default function App() {
   return (
     <DashboardProvider>
+      <NotificationsProvider>
       <Routes>
 
-        {/* Login + Signup Page */}
+        {/* Login */}
         <Route path="/" element={<AuthLayout />} />
 
+        {/* Support */}
         <Route path="/contact-support" element={<ContactSupport />} />
 
-        {/* Dashboard */}
-        <Route path="/super-admin" element={<SuperAdminDashboard />} />
+        {/* Super Admin */}
+        <Route path="/super-admin/*" element={<SuperAdminDashboard />} />
+
+        {/* Admin */}
+        <Route path="/admin/*" element={<AdminDashboard />} />
 
       </Routes>
+      </NotificationsProvider>
     </DashboardProvider>
   );
 }

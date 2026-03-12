@@ -49,24 +49,31 @@ export default function LoginCard({ goToSignup }) {
   const [password, setPassword] = useState("");
 
   const handleLogin = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    const storedUser = JSON.parse(localStorage.getItem("user"));
+  const storedUser = JSON.parse(localStorage.getItem("user"));
 
-    if (
-      storedUser &&
-      storedUser.username === username &&
-      storedUser.password === password
-    ) {
+  if (
+    storedUser &&
+    storedUser.username === username &&
+    storedUser.password === password
+  ) {
 
-      if (storedUser.role === "SuperAdmin") {
-        navigate("/super-admin");
-      }
-
-    } else {
-      alert("Invalid Credentials");
+    if (storedUser.role === "SuperAdmin") {
+      navigate("/super-admin");
+    } 
+    else if (storedUser.role === "Admin") {
+      navigate("/admin");
+    } 
+    else {
+      alert("Role not recognized");
     }
-  };
+
+  } else {
+    alert("Invalid Credentials");
+  }
+};
+
 
   return (
     <div className="bg-white rounded-3xl shadow-2xl p-10 w-full max-w-lg">
