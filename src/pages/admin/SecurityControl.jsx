@@ -7,7 +7,7 @@ import {
   MdStorage,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
+import StatsCard from "../../components/admin/StatsCard";
 
 export default function SecurityControl() {
   const [twoFA, setTwoFA] = useState(true);

@@ -1,6 +1,6 @@
 import { useState, useContext } from "react";
-import StatsCard from "../components/StatsCard";
-import SendNotificationModal from "../components/SendNotificationsModal";
+import StatsCard from "../../components/admin/StatsCard";
+import SendNotificationModal from "../../components/admin/SendNotificationsModal";
 import { FiBell, FiSend, FiMessageSquare } from "react-icons/fi";
 import NotificationsContext from "../contexts/NotificationsContext";
 

@@ -7,11 +7,11 @@ import {
   MdCheckCircle,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import CustomersTable from "../components/CustomersTable";
-import AppointmentsTable from "../components/AppointmentsTable";
-import CustomerModal from "../components/CustomerModal";
-import AppointmentsModal from "../components/AppointmentModal";
+import StatsCard from "../../components/admin/StatsCard";
+import CustomersTable from "../../components/admin/CustomersTable";
+import AppointmentsTable from "../../components/admin/AppointmentsTable";
+import CustomerModal from "../../components/admin/CustomerModal";
+import AppointmentsModal from "../../components/admin/AppointmentModal";
 
 export default function CustomerAppointments() {
   const [activeTab, setActiveTab] = useState("customers");

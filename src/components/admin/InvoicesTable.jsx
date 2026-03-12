@@ -1,4 +1,4 @@
-import { downloadInvoicePDF } from "../utils/downloadInvoicePDF";
+import { downloadInvoicePDF } from "../../utils/downloadInvoicePDF";
 
 export default function InvoicesTable({
   invoices,

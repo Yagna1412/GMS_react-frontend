@@ -9,9 +9,9 @@ import {
   MdTrendingUp,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import BranchTable from "../components/BranchTable";
-import AddBranchModal from "../components/AddBranchModal";
+import StatsCard from "../../components/admin/StatsCard";
+import BranchTable from "../../components/admin/BranchTable";
+import AddBranchModal from "../../components/admin/AddBranchModal";
 
 export default function BranchManagement() {
   const [search, setSearch] = useState("");

@@ -6,10 +6,10 @@ import {
   MdCategory,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import InventoryTable from "../components/InventoryTable";
-import AddItemModal from "../components/Additemmodal";
-import EditItemModal from "../components/EditItemModal";
+import StatsCard from "../../components/admin/StatsCard";
+import InventoryTable from "../../components/admin/InventoryTable";
+import AddItemModal from "../../components/admin/Additemmodal";
+import EditItemModal from "../../components/admin/EditItemModal";
 
 export default function InventoryParts() {
   // STATES

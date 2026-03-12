@@ -8,9 +8,9 @@ import {
   MdTrendingUp,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import EmployeeTable from "../components/EmployeeTable";
-import AddEmployeeModal from "../components/AddEmployeeModal";
+import StatsCard from "../../components/admin/StatsCard";
+import EmployeeTable from "../../components/admin/EmployeeTable";
+import AddEmployeeModal from "../../components/admin/AddEmployeeModal";
 
 export default function EmployeeManagement() {
   const [search, setSearch] = useState("");

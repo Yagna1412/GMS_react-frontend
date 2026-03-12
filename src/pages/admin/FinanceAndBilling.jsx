@@ -6,10 +6,10 @@ import {
   MdReceiptLong,
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import InvoicesTable from "../components/InvoicesTable";
-import InvoicePreviewModal from "../components/InvoicePreviewModal";
-import CreateInvoiceModal from "../components/CreateInvoiceModal"; //  ADD THIS
+import StatsCard from "../../components/admin/StatsCard";
+import InvoicesTable from "../../components/admin/InvoicesTable";
+import InvoicePreviewModal from "../../components/admin/InvoicePreviewModal";
+import CreateInvoiceModal from "../../components/admin/CreateInvoiceModal"; //  ADD THIS
 
 export default function FinanceBilling() {
   const [openPreview, setOpenPreview] = useState(false);

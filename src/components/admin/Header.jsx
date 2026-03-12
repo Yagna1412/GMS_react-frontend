@@ -12,7 +12,7 @@ import {
 } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import NotificationsContext from "../contexts/NotificationsContext";
+import NotificationsContext from "../../context/NotificationsContext";
 
 /* ------------------ NOTIFICATION BELL ------------------ */
 

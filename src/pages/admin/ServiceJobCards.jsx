@@ -7,11 +7,11 @@ import {
   MdFactCheck,   // 🧾 Avg Quality
 } from "react-icons/md";
 
-import StatsCard from "../components/StatsCard";
-import JobCardsTable from "../components/JobCardsTable";
-import ServicesTable from "../components/ServicesTable";
-import JobCardModal from "../components/JobCardModal";
-import ServiceModal from "../components/ServiceModal";
+import StatsCard from "../../components/admin/StatsCard";
+import JobCardsTable from "../../components/admin/JobCardsTable";
+import ServicesTable from "../../components/admin/ServicesTable";
+import JobCardModal from "../../components/admin/JobCardModal";
+import ServiceModal from "../../components/admin/ServiceModal";
 
 export default function ServiceJobCards() {
   const [activeTab, setActiveTab] = useState("jobcards");
