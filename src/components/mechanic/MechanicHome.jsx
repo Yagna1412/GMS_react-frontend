@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useMechanic } from '../../contexts/MechanicContext'
+import { useMechanic } from '../../context/MechanicContext'
 
 import {
   ClipboardList,

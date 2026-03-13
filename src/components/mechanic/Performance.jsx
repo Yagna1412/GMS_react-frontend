@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMechanic } from '../../contexts/MechanicContext';
+import { useMechanic } from '../../context/MechanicContext';
 import { TrendingUp, Clock, Star, CheckCircle } from 'lucide-react';
 
 /* -- Helper: Last 6 Months -- */

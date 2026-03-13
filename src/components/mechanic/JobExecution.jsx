@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useMechanic } from '../../contexts/MechanicContext';
+import { useMechanic } from '../../context/MechanicContext';
 import { toast } from 'sonner';
 import { Play, Check, Activity, Plus } from 'lucide-react';
 

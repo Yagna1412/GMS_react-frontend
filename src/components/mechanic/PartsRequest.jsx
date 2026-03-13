@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { useMechanic } from '../../contexts/MechanicContext';
+import { useMechanic } from '../../context/MechanicContext';
 import { Plus, X, Eye, Trash2 } from 'lucide-react';
 import { toast } from 'sonner';
 

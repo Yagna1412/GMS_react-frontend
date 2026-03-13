@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useMechanic } from '../../contexts/MechanicContext';
+import { useMechanic } from '../../context/MechanicContext';
 import { toast } from 'sonner';
 import { CheckCircle, Send, AlertCircle } from 'lucide-react';
 

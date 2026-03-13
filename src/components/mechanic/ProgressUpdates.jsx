@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Upload, Send } from 'lucide-react';
 import { toast } from 'sonner';
-import { useMechanic } from '../../contexts/MechanicContext';
+import { useMechanic } from '../../context/MechanicContext';
 
 
 export default function ProgressUpdates() {

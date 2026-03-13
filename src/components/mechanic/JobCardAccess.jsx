@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import { useMechanic } from '../../contexts/MechanicContext'
+import { useMechanic } from '../../context/MechanicContext'
 import { ClipboardList, Eye, X, Car, Wrench } from 'lucide-react'
 
 
