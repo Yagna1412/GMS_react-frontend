@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/admin
 =======
 >>>>>>> origin/mechanic
+=======
+>>>>>>> origin/service-advisor
 # Logs
 logs
 *.log
@@ -29,6 +32,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -60,3 +64,5 @@ yarn-error.log*
 >>>>>>> origin/admin
 =======
 >>>>>>> origin/mechanic
+=======
+>>>>>>> origin/service-advisor
