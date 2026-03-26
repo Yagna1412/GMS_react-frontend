@@ -5,6 +5,7 @@ import AuthLayout from "./components/AuthLayout";
 import ContactSupport from "./pages/ContactSupport";
 import SuperAdminDashboard from "./ui/SuperAdminDashboard";
 import AdminDashboard from "./ui/AdminDashboard";
+import ServiceAdvisorDashboard from "./ui/ServiceAdvisorDashboard";
 import MechanicDashboard from "./ui/MechanicDashboard";
 import { DashboardProvider } from "./context/DashboardContext";
 import { NotificationsProvider } from "./context/NotificationsContext";
@@ -15,6 +16,7 @@ export default function App() {
     <DashboardProvider>
       <NotificationsProvider>
         <MechanicProvider>
+        
       <Routes>
 
         {/* Login */}
@@ -28,6 +30,9 @@ export default function App() {
 
         {/* Admin */}
         <Route path="/admin/*" element={<AdminDashboard />} />
+
+        {/* Service-Advisor */}
+        <Route path="/service-advisor/*" element={<ServiceAdvisorDashboard />} />
 
         {/* Mechanic */}
         <Route path="/mechanic/*" element={<MechanicDashboard />} />

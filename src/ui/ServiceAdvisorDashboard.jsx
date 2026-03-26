@@ -1,22 +1,22 @@
 import React from "react";
-import { ServiceAdvisorProvider } from "../component/context/Serviceadvisorcontext";
+import { ServiceAdvisorProvider } from "../components/serviceadvisor/Serviceadvisorcontext";
 
 import {
   Power,
   Search,
   Bell
 } from "lucide-react";
-import { useServiceAdvisorDashboard } from "./Serviceadvisor/useServiceAdvisorDashboard";
+import { useServiceAdvisorDashboard } from "../components/serviceadvisor/useServiceAdvisorDashboard";
 
-import ServiceAdvisorHome from "../component/Serviceadvisor/ui/Serviceadvisorhome";
-import Customermanagement from "../component/Serviceadvisor/ui/Customermanagement";
-import AppointmentBooking from "../component/Serviceadvisor/ui/Appointmentbooking";
-import JobCardCreation from "../component/Serviceadvisor/ui/Jobcardcreation";
-import ServiceEstimation from "../component/Serviceadvisor/ui/Serviceestimation";
-import JobProgressTracking from "../component/Serviceadvisor/ui/Jobprogresstracking";
-import CustomerCommunication from "../component/Serviceadvisor/ui/Customercommunication";
-import BillingDelivery from "../component/Serviceadvisor/ui/Billinganddeliverey";
-import ComplaintManagement from "../component/Serviceadvisor/ui/Complaintmanagement";
+import ServiceAdvisorHome from "../components/serviceadvisor/ui/Serviceadvisorhome";
+import Customermanagement from "../components/serviceadvisor/ui/Customermanagement";
+import AppointmentBooking from "../components/serviceadvisor/ui/Appointmentbooking";
+import JobCardCreation from "../components/serviceadvisor/ui/Jobcardcreation";
+import ServiceEstimation from "../components/serviceadvisor/ui/Serviceestimation";
+import JobProgressTracking from "../components/serviceadvisor/ui/Jobprogresstracking";
+import CustomerCommunication from "../components/serviceadvisor/ui/Customercommunication";
+import BillingDelivery from "../components/serviceadvisor/ui/Billinganddeliverey";
+import ComplaintManagement from "../components/serviceadvisor/ui/Complaintmanagement";
 function DashboardContent({ onLogout }) {
   const {
     activeTab,
