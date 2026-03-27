@@ -7,6 +7,7 @@ import SuperAdminDashboard from "./ui/SuperAdminDashboard";
 import AdminDashboard from "./ui/AdminDashboard";
 import ServiceAdvisorDashboard from "./ui/ServiceAdvisorDashboard";
 import MechanicDashboard from "./ui/MechanicDashboard";
+import HRManagerDashboard from "./components/HRManagerDashboard";
 import { DashboardProvider } from "./context/DashboardContext";
 import { NotificationsProvider } from "./context/NotificationsContext";
 import { MechanicProvider } from "./context/MechanicContext";
@@ -16,28 +17,28 @@ export default function App() {
     <DashboardProvider>
       <NotificationsProvider>
         <MechanicProvider>
-        
-      <Routes>
+          <Routes>
+            {/* Login */}
+            <Route path="/" element={<AuthLayout />} />
 
-        {/* Login */}
-        <Route path="/" element={<AuthLayout />} />
+            {/* Support */}
+            <Route path="/contact-support" element={<ContactSupport />} />
 
-        {/* Support */}
-        <Route path="/contact-support" element={<ContactSupport />} />
+            {/* Super Admin */}
+            <Route path="/super-admin/*" element={<SuperAdminDashboard />} />
 
-        {/* Super Admin */}
-        <Route path="/super-admin/*" element={<SuperAdminDashboard />} />
+            {/* Admin */}
+            <Route path="/admin/*" element={<AdminDashboard />} />
 
-        {/* Admin */}
-        <Route path="/admin/*" element={<AdminDashboard />} />
+            {/* Service-Advisor */}
+            <Route path="/service-advisor/*" element={<ServiceAdvisorDashboard />} />
 
-        {/* Service-Advisor */}
-        <Route path="/service-advisor/*" element={<ServiceAdvisorDashboard />} />
+            {/* Mechanic */}
+            <Route path="/mechanic/*" element={<MechanicDashboard />} />
 
-        {/* Mechanic */}
-        <Route path="/mechanic/*" element={<MechanicDashboard />} />
-
-      </Routes>
+            {/* HR Manager */}
+            <Route path="/hr/*" element={<HRManagerDashboard />} />
+          </Routes>
         </MechanicProvider>
       </NotificationsProvider>
     </DashboardProvider>
