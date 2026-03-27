@@ -32,6 +32,9 @@ export default function LoginCard({ goToSignup }) {
      else if (storedUser.role === "ServiceAdvisor") {
       navigate("/service-advisor");
     } 
+    else if (storedUser.role === "HRManager") {
+      navigate("/hr");
+    }
     else if (storedUser.role === "Mechanic") {
       navigate("/mechanic");
     } 
