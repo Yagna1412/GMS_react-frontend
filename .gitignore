@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/admin
 =======
@@ -11,6 +12,8 @@
 >>>>>>> origin/service-advisor
 =======
 >>>>>>> origin/hr
+=======
+>>>>>>> origin/inventory-manager
 # Logs
 logs
 *.log
@@ -35,6 +38,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,3 +76,5 @@ yarn-error.log*
 >>>>>>> origin/service-advisor
 =======
 >>>>>>> origin/hr
+=======
+>>>>>>> origin/inventory-manager
