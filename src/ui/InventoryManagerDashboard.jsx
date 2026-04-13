@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { InventoryProvider } from "./context/InventoryContext";
+import { InventoryProvider } from "../context/InventoryContext";
 import { Toaster } from "sonner";
 import {
   LayoutDashboard,
@@ -15,13 +15,13 @@ import {
   X,
 } from "lucide-react";
 
-import InventoryDashboard from "./inventory/InventoryDashboard";
-import InventoryItems from "./inventory/InventoryItems";
-import StockManagement from "./inventory/StockManagement";
-import PurchaseOrders from "./inventory/PurchaseOrders";
-import VendorManagement from "./inventory/VendorManagement";
-import ValuationReports from "./inventory/ValuationReports";
-import InventoryErrorBoundary from "./inventory/shared/InventoryErrorBoundary";
+import InventoryDashboard from "../components/inventory/InventoryDashboard";
+import InventoryItems from "../components/inventory/InventoryItems";
+import StockManagement from "../components/inventory/StockManagement";
+import PurchaseOrders from "../components/inventory/PurchaseOrders";
+import VendorManagement from "../components/inventory/VendorManagement";
+import ValuationReports from "../components/inventory/ValuationReports";
+// import InventoryErrorBoundary from "../components/inventory/
 
 function DashboardContent({ onLogout }) {
   const [activeTab, setActiveTab] = useState("dashboard");
