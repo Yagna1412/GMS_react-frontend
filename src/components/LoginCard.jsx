@@ -38,6 +38,9 @@ export default function LoginCard({ goToSignup }) {
     else if (storedUser.role === "Mechanic") {
       navigate("/mechanic");
     } 
+    else if (storedUser.role === "InventoryManager") {
+      navigate("/inventory-manager");
+    } 
     else {
       alert("Role not recognized");
     }

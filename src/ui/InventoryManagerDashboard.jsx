@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { InventoryProvider } from "../context/InventoryContext";
+import InventoryErrorBoundary from "../components/inventory/shared/InventoryErrorBoundary";
 import { Toaster } from "sonner";
 import {
   LayoutDashboard,
@@ -21,7 +22,7 @@ import StockManagement from "../components/inventory/StockManagement";
 import PurchaseOrders from "../components/inventory/PurchaseOrders";
 import VendorManagement from "../components/inventory/VendorManagement";
 import ValuationReports from "../components/inventory/ValuationReports";
-// import InventoryErrorBoundary from "../components/inventory/
+
 
 function DashboardContent({ onLogout }) {
   const [activeTab, setActiveTab] = useState("dashboard");
