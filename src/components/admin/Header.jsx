@@ -123,7 +123,7 @@ function Bell() {
 
 /* ------------------ HEADER ------------------ */
 
-export default function Header({ onMenuClick }) {
+export default function Header({ onMenuClick, onLogout }) {
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -206,7 +206,10 @@ export default function Header({ onMenuClick }) {
                 Settings
               </button>
 
-              <button className="flex items-center gap-3 w-full px-4 py-3 text-sm text-red-600 hover:bg-red-50">
+              <button
+                className="flex items-center gap-3 w-full px-4 py-3 text-sm text-red-600 hover:bg-red-50"
+                onClick={onLogout}
+              >
                 <MdLogout size={18} />
                 Logout
               </button>

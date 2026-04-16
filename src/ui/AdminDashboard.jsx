@@ -13,8 +13,16 @@ import FinanceAndBilling from "../pages/admin/FinanceAndBilling";
 import ReportingAnalytics from "../pages/admin/ReportingAnalytics";
 import SecurityControl from "../pages/admin/SecurityControl";
 
+import { useNavigate } from "react-router-dom";
+
 export default function AdminDashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
 
   return (
     <div className="flex h-screen bg-[#EFF6FF] overflow-hidden">
@@ -26,7 +34,7 @@ export default function AdminDashboard() {
       <div className="flex flex-col flex-1 overflow-hidden">
 
         {/* Header */}
-        <Header onMenuClick={() => setSidebarOpen(true)} />
+        <Header onMenuClick={() => setSidebarOpen(true)} onLogout={handleLogout} />
 
         {/* Content */}
         <div className="flex-1 p-6 overflow-y-auto">

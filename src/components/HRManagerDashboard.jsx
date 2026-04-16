@@ -33,7 +33,14 @@ import TrainingDevelopment from "../components/hr/TrainingDevelopment";
 
 /*  TEMP PLACEHOLDERS (UNCHANGED)  */
 
+import { useNavigate } from "react-router-dom";
+
 const HRManagerDashboard = () => {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("dashboard");
 
@@ -204,7 +211,7 @@ const HRManagerDashboard = () => {
 
         {/* Logout */}
         <div className="px-4 py-8 mt-auto border-t border-[#e2e8f0]/50 bg-white/10">
-          <button className="w-full flex items-center gap-4 px-6 py-4 rounded-xl text-[#64748b] hover:bg-red-50 hover:text-red-600 transition-colors duration-200 font-semibold group">
+          <button onClick={handleLogout} className="w-full flex items-center gap-4 px-6 py-4 rounded-xl text-[#64748b] hover:bg-red-50 hover:text-red-600 transition-colors duration-200 font-semibold group">
             <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center">
               <Power size={22} className="group-hover:text-red-600" />
             </div>

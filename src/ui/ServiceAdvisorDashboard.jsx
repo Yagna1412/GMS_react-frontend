@@ -194,10 +194,17 @@ function DashboardContent({ onLogout }) {
   );
 }
 
-export default function ServiceAdvisorDashboard({ onLogout }) {
+import { useNavigate } from "react-router-dom";
+
+export default function ServiceAdvisorDashboard() {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <ServiceAdvisorProvider>
-      <DashboardContent onLogout={onLogout} />
+      <DashboardContent onLogout={handleLogout} />
     </ServiceAdvisorProvider>
   );
 }

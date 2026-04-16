@@ -31,11 +31,18 @@ import {
   X
 } from 'lucide-react';
 
-export default function SuperAdminDashboard({ onLogout }) {
+import { useNavigate } from "react-router-dom";
+
+export default function SuperAdminDashboard() {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <DashboardProvider>
       <Toaster position="top-right" richColors />
-      <DashboardContent onLogout={onLogout} />
+      <DashboardContent onLogout={handleLogout} />
     </DashboardProvider>
   );
 }

@@ -210,10 +210,17 @@ function DashboardContent({ onLogout }) {
   );
 }
 
-export default function InventoryManagerDashboard({ onLogout }) {
+import { useNavigate } from "react-router-dom";
+
+export default function InventoryManagerDashboard() {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <InventoryProvider>
-      <DashboardContent onLogout={onLogout} />
+      <DashboardContent onLogout={handleLogout} />
     </InventoryProvider>
   );
 }
