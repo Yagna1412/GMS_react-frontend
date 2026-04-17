@@ -1,5 +1,5 @@
 // Logic hook for ApprovalCenter (superadmin)
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../../context/DashboardContext';
 import { useState } from 'react';
 import { initialApprovals } from '../data/approvals';
 

@@ -1,5 +1,5 @@
 // Logic hook for AuditLogs (superadmin)
-import { useDashboard } from '../context/DashboardContext';
+import { useDashboard } from '../../../context/DashboardContext';
 import { useState } from 'react';
 
 export function useAuditLogs() {
