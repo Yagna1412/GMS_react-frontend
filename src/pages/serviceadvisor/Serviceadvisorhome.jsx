@@ -12,7 +12,7 @@ import {
   CheckCircle,
   TrendingUp
 } from 'lucide-react';
-import { useServiceAdvisorHome } from '../useServiceAdvisorHome';
+import { useServiceAdvisorHome } from '../../components/serviceadvisor/useServiceAdvisorHome';
 
 export default function ServiceAdvisorHome({ onNavigate }) {
   const {

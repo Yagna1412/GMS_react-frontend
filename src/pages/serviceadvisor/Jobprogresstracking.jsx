@@ -1,6 +1,6 @@
 import React from "react";
 import { Eye, Trash2, X } from "lucide-react";
-import { useJobProgressTracking } from "../useJobProgressTracking";
+import { useJobProgressTracking } from '../../components/serviceadvisor/useJobProgressTracking';
 
 export default function JobProgressTracking() {
   const {

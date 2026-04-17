@@ -14,7 +14,7 @@ import {
   X,
   History
 } from 'lucide-react';
-import { useCustomerManagement } from '../useCustomerManagement';
+import { useCustomerManagement } from '../../components/serviceadvisor/useCustomerManagement';
 
 export default function CustomerManagement() {
   const {

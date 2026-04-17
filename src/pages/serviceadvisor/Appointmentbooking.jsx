@@ -1,5 +1,5 @@
 import { Calendar, Plus, Clock, CheckCircle } from 'lucide-react';
-import { useAppointmentBooking } from '../useAppointmentBooking';
+import { useAppointmentBooking } from '../../components/serviceadvisor/useAppointmentBooking';
 
 export default function AppointmentBooking() {
   const {

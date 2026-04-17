@@ -1,6 +1,6 @@
 import React from "react";
 import { Plus, Eye, ArrowUpRight, Trash2 } from "lucide-react";
-import { useComplaintManagement } from "../useComplaintManagement";
+import { useComplaintManagement } from '../../components/serviceadvisor/useComplaintManagement';
 
 export default function ComplaintManagement() {
   const {

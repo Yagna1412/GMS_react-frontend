@@ -1,6 +1,6 @@
 import React from "react";
 import { MessageSquare, Mail, Phone } from "lucide-react";
-import { useCustomerCommunication } from "../useCustomerCommunication";
+import { useCustomerCommunication } from '../../components/serviceadvisor/useCustomerCommunication';
 
 export default function CustomerCommunication() {
   const { recentJobCards, handleSendMessage } = useCustomerCommunication();

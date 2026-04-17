@@ -11,7 +11,7 @@ import {
   Clock, 
   AlertCircle 
 } from 'lucide-react';
-import { useJobCardCreation } from '../useJobCardCreation';
+import { useJobCardCreation } from '../../components/serviceadvisor/useJobCardCreation';
 
 export default function JobCardCreation() {
   const {
