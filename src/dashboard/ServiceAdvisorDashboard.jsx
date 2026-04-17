@@ -1,5 +1,5 @@
 import React from "react";
-import { ServiceAdvisorProvider } from "../components/serviceadvisor/Serviceadvisorcontext";
+import { ServiceAdvisorProvider } from "../context/Serviceadvisorcontext";
 
 import {
   Power,

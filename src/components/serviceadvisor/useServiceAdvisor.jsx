@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { ServiceAdvisorContext } from './ServiceAdvisorContextObject';
+import { ServiceAdvisorContext } from '../../context/ServiceAdvisorContextObject';
 
 export function useServiceAdvisor() {
   const context = useContext(ServiceAdvisorContext);

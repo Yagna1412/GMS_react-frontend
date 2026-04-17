@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ServiceAdvisorContext } from '../serviceadvisor/ServiceAdvisorContextObject';
+import { ServiceAdvisorContext } from './ServiceAdvisorContextObject';
 import {
   DEFAULT_APPOINTMENTS,
   DEFAULT_BRANCH,
@@ -8,7 +8,7 @@ import {
   DEFAULT_ESTIMATIONS,
   DEFAULT_INVOICES,
   DEFAULT_JOB_CARDS
-} from '../serviceadvisor/data/mockData';
+} from '../components/serviceadvisor/data/mockData';
 
 export const ServiceAdvisorProvider = ({ children }) => {
   const [currentBranch] = useState(DEFAULT_BRANCH);
