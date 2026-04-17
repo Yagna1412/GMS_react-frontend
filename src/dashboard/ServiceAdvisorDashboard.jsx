@@ -8,15 +8,15 @@ import {
 } from "lucide-react";
 import { useServiceAdvisorDashboard } from "../components/serviceadvisor/useServiceAdvisorDashboard";
 
-import ServiceAdvisorHome from "../components/serviceadvisor/ui/Serviceadvisorhome";
-import Customermanagement from "../components/serviceadvisor/ui/Customermanagement";
-import AppointmentBooking from "../components/serviceadvisor/ui/Appointmentbooking";
-import JobCardCreation from "../components/serviceadvisor/ui/Jobcardcreation";
-import ServiceEstimation from "../components/serviceadvisor/ui/Serviceestimation";
-import JobProgressTracking from "../components/serviceadvisor/ui/Jobprogresstracking";
-import CustomerCommunication from "../components/serviceadvisor/ui/Customercommunication";
-import BillingDelivery from "../components/serviceadvisor/ui/Billinganddeliverey";
-import ComplaintManagement from "../components/serviceadvisor/ui/Complaintmanagement";
+import ServiceAdvisorHome from "../pages/serviceadvisor/Serviceadvisorhome";
+import Customermanagement from "../pages/serviceadvisor/Customermanagement";
+import AppointmentBooking from "../pages/serviceadvisor/Appointmentbooking";
+import JobCardCreation from "../pages/serviceadvisor/Jobcardcreation";
+import ServiceEstimation from "../pages/serviceadvisor/Serviceestimation";
+import JobProgressTracking from "../pages/serviceadvisor/Jobprogresstracking";
+import CustomerCommunication from "../pages/serviceadvisor/Customercommunication";
+import BillingDelivery from "../pages/serviceadvisor/Billinganddeliverey";
+import ComplaintManagement from "../pages/serviceadvisor/Complaintmanagement";
 function DashboardContent({ onLogout }) {
   const {
     activeTab,

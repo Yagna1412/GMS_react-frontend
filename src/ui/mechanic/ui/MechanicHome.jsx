@@ -1,0 +1,1 @@
+// ...existing code from src/components/mechanic/MechanicHome.jsx

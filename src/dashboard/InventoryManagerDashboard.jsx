@@ -16,12 +16,12 @@ import {
   X,
 } from "lucide-react";
 
-import InventoryDashboard from "../components/inventory/InventoryDashboard";
-import InventoryItems from "../components/inventory/InventoryItems";
-import StockManagement from "../components/inventory/StockManagement";
-import PurchaseOrders from "../components/inventory/PurchaseOrders";
-import VendorManagement from "../components/inventory/VendorManagement";
-import ValuationReports from "../components/inventory/ValuationReports";
+import InventoryDashboard from "../pages/inventory/InventoryDashboard";
+import InventoryItems from "../pages/inventory/InventoryItems";
+import StockManagement from "../pages/inventory/StockManagement";
+import PurchaseOrders from "../pages/inventory/PurchaseOrders";
+import VendorManagement from "../pages/inventory/VendorManagement";
+import ValuationReports from "../pages/inventory/ValuationReports";
 
 
 function DashboardContent({ onLogout }) {

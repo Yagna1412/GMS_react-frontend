@@ -18,14 +18,14 @@ import {
 } from "lucide-react";
 
 // Components
-import MechanicHome from "../components/mechanic/MechanicHome";
-import JobCardAccess from "../components/mechanic/JobCardAccess";
-import JobExecution from "../components/mechanic/JobExecution";
-import PartsRequest from "../components/mechanic/PartsRequest";
-import ProgressUpdates from "../components/mechanic/ProgressUpdates";
-import QcSubmission from "../components/mechanic/QcSubmission";
-import Performance from "../components/mechanic/Performance";
-import Training from "../components/mechanic/Training";
+import MechanicHome from "../pages/mechanic/MechanicHome";
+import JobCardAccess from "../pages/mechanic/JobCardAccess";
+import JobExecution from "../pages/mechanic/JobExecution";
+import PartsRequest from "../pages/mechanic/PartsRequest";
+import ProgressUpdates from "../pages/mechanic/ProgressUpdates";
+import QcSubmission from "../pages/mechanic/QcSubmission";
+import Performance from "../pages/mechanic/Performance";
+import Training from "../pages/mechanic/Training";
 
 function DashboardContent({ onLogout }) {
   const navigate = useNavigate();

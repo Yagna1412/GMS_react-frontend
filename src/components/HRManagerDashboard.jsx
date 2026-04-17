@@ -18,18 +18,18 @@ import {
   CreditCard,
 } from "lucide-react";
 import { Toaster } from "sonner";
-import GrievanceExit from "./hr/GrivanceExit";
+import GrievanceExit from "../pages/hr/GrivanceExit";
 
 
 /*IMPORT REAL PAGES */
-import HRDashboardHome from "../components/hr/HRDashboardHome";
-import EmployeeMaster from "../components/hr/EmployeeMaster";
-import Attendance from "../components/hr/Attendance";
-import LeaveManagement from "../components/hr/LeaveManagement";
-import PerformanceManagement from "../components/hr/PerformanceManagement";
-import RelievingEmployee from "../components/hr/RelievingEmployee";
-import PayrollManagement from "../components/hr/PayrollManagement";
-import TrainingDevelopment from "../components/hr/TrainingDevelopment";
+import HRDashboardHome from "../pages/hr/HRDashboardHome";
+import EmployeeMaster from "../pages/hr/EmployeeMaster";
+import Attendance from "../pages/hr/Attendance";
+import LeaveManagement from "../pages/hr/LeaveManagement";
+import PerformanceManagement from "../pages/hr/PerformanceManagement";
+import RelievingEmployee from "../pages/hr/RelievingEmployee";
+import PayrollManagement from "../pages/hr/PayrollManagement";
+import TrainingDevelopment from "../pages/hr/TrainingDevelopment";
 
 /*  TEMP PLACEHOLDERS (UNCHANGED)  */
 
