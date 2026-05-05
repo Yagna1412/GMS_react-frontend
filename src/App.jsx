@@ -1,15 +1,15 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Dashboard_components/Sidebar';
-import Header from './components/Dashboard_components/Header';
-import Dashboard from './pages/Dashboard';
-import Feedback from './pages/Feedback';
-import Reports from "./pages/Reports";
-import BookAndService from "./pages/BookAndService";
-import Profile from "./pages/Profile";
-import Invoice from "./pages/Invoice";
-import MyVehicles from "./pages/Myvehicles";
-import MyJobs from "./pages/MyJobs";
+import Sidebar from './components/customer/dashboard/Sidebar';
+import Header from './components/customer/dashboard/Header';
+import Dashboard from './pages/customer/Dashboard';
+import Feedback from './pages/customer/Feedback';
+import Reports from "./pages/customer/Reports";
+import BookAndService from "./pages/customer/BookAndService";
+import Profile from "./pages/customer/Profile";
+import Invoice from "./pages/customer/Invoice";
+import MyVehicles from "./pages/customer/Myvehicles";
+import MyJobs from "./pages/customer/MyJobs";
 
 const Placeholder = ({ title }) => (
   <div style={{ padding: 40, textAlign: 'center', color: '#64748B', fontSize: 18 }}>
